@@ -1,0 +1,29 @@
+salida=open("mi documento.txt","w")
+salida.write("Good morning, little stars. \n")
+salida.write("The Earth says hi!") 
+salida.close() 
+
+conjunto={"a","b","c"}
+print(conjunto)
+conjunto.add("a")
+print(conjunto)
+conjunto.add("d")
+print(conjunto)
+
+conjunto={"a","b","c"}
+if "b" in conjunto:
+    conjunto.remove("b")
+print(conjunto)
+if "b" in conjunto:
+    conjunto.remove("b")
+print(conjunto)
+
+dicNumeros={1:"a",2:"b",3:"c"}
+dicLetras={"primera":"a","segunda":"b","tercera":"c"}
+
+dicNumeros[1]
+dicLetras["primera"]
+
+dicLetras={"primera":"a","segunda":"b","tercera":"c"}
+for llave in dicLetras.keys():
+    print(f"llave:{llave},valor:{dicLetras[llave]}")
